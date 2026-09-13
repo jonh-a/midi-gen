@@ -1,0 +1,14 @@
+[project]
+name = "midi-gen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.5.0",
+    "pretty-midi>=0.2.11.post0",
+    "pychord>=1.4.0",
+]
+
+[project.scripts]
+midi-gen = "midi_gen.cli:generate"
